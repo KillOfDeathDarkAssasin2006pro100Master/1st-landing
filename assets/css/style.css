@@ -80,6 +80,15 @@
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: #c1c1c1;
+}
+
+.nav-link:active {
+    color: #d5d5d5;
+    text-decoration: underline;
+}
+
 #nav-btn {
     font-family: var(--bold);
     font-size: 16px;
@@ -88,7 +97,7 @@
     border: 1px solid var(--primary-color);
     border-radius: 6px;
     padding: 0.5rem 1rem;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #nav-btn:hover {
@@ -146,7 +155,7 @@
     border-radius: 6px;
     font-family: var(--bold);
     font-size: 16px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .hero-btn:hover {
@@ -219,7 +228,7 @@
     color: #FFF;
     background-color: var(--primary-color);
     margin-bottom: 5rem;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 #main-btn:hover {
